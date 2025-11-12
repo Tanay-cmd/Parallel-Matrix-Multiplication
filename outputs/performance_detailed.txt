@@ -1,0 +1,27 @@
+=== Comprehensive Performance Analysis ===
+Dataset: MovieLens 1M
+Training Ratings: 800167
+Validation Ratings: 200042
+Epochs: 30
+Factors: 50
+
+Threads: 1
+Training Time: 6564 ms
+Final Training RMSE: 0.907637
+Final Validation RMSE: 1.158985
+
+Threads: 2
+Training Time: 5808 ms
+Final Training RMSE: 0.907637
+Final Validation RMSE: 1.158985
+
+Threads: 4
+Training Time: 7127 ms
+Final Training RMSE: 0.907637
+Final Validation RMSE: 1.158985
+
+Threads: 8
+Training Time: 7406 ms
+Final Training RMSE: 0.907637
+Final Validation RMSE: 1.158985
+

@@ -1,0 +1,25 @@
+{
+  "algorithm": {
+    "learning_rate": 0.01,
+    "regularization": 0.01,
+    "num_factors": 50,
+    "max_epochs": 100,
+    "convergence_threshold": 0.001
+  },
+  "parallelism": {
+    "num_threads": 4,
+    "use_mpi": true
+  },
+  "data": {
+    "ratings_file": "data/ratings.dat",
+    "movies_file": "data/movies.dat", 
+    "users_file": "data/users.dat",
+    "train_ratio": 0.8,
+    "validation_split": true
+  },
+  "output": {
+    "save_factors": true,
+    "performance_report": true,
+    "top_n_recommendations": 10
+  }
+}
